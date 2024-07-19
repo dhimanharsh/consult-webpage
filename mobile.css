@@ -1,0 +1,22 @@
+@media(max-width:420px){
+    * {
+        padding: 0px;
+        margin: 0px;
+      }
+      nav {
+        background-color: rgba(235, 230, 230, 0.582);
+        display: flex;
+        height: 29px;
+        width: 100%;
+      }
+      nav li {
+        list-style: none;
+        margin-left: 10px;
+        padding: 2px 5px;
+        font-size: 15px;
+        border-right: 2px solid gray;
+        padding-top: 8px;
+        cursor: pointer;
+      }
+      
+}
